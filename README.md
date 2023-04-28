@@ -13,8 +13,14 @@ To install the project on your computer, follow these steps:
 1. Clone the repository using the command `git clone https://github.com/IPOleksenko/ArtForge.git`.
 2. Navigate to the project directory using the command `cd ArtForge`.
 3. Install the dependencies using the command `npm install`.
-4. Start the project using the command `npm start`.
-5. Open your web browser and go to `http://localhost:3000`.
+4. Install the libraries for project operation: 
+```shell
+npm install react-router-dom
+npm install react-bootstrap bootstrap
+```
+
+5. Start the project using the command `npm start`.
+6. Open your web browser and go to `http://localhost:3000`.
 
 ## Technologies Used
 
