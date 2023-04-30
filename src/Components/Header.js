@@ -18,52 +18,49 @@ export default class Header extends Component {
                     <Navbar.Collapse  id="responsive-navbar-nav">
                         <Nav className="me-auto">
                         <div className="dropdown">
-                            <Nav.Link href="/Music">Music</Nav.Link>
+                            <Nav.Link>Music</Nav.Link>
                             <div className="dropdown-list">
-                                <Nav.Link href="/Guitar">Guitar</Nav.Link>
-                                <Nav.Link href="/Piano">Piano</Nav.Link>
-                                <Nav.Link href="/Bass">Bass</Nav.Link>
+                                <Nav.Link href="/Music/Guitar">Guitar</Nav.Link>
+                                <Nav.Link href="/Music/Piano">Piano</Nav.Link>
+                                <Nav.Link href="/Music/Bass">Bass</Nav.Link>
                             </div>
                         </div>
                             
-                            
                         <div className="dropdown">
-                            <Nav.Link href="/Singing">Singing</Nav.Link>
+                            <Nav.Link>Singing</Nav.Link>
                             <div className="dropdown-list">
-                                <Nav.Link href="/Tembr">Tembr</Nav.Link>
-                                <Nav.Link href="/Singers">Singers</Nav.Link>
+                                <Nav.Link href="/Singing/Tembr">Tembr</Nav.Link>
+                                <Nav.Link href="/Singing/Singers">Singers</Nav.Link>
                             </div>
                         </div>
 
                         <div className="dropdown">
-                            <Nav.Link href="/Painting">Painting</Nav.Link>
+                            <Nav.Link>Painting</Nav.Link>
                             <div className="dropdown-list">
-                                <Nav.Link href="/Art">Art</Nav.Link>
-                                <Nav.Link href="/Artists">Artists</Nav.Link>
+                                <Nav.Link href="/Painting/Art">Art</Nav.Link>
+                                <Nav.Link href="/Painting/Artists">Artists</Nav.Link>
                             </div>
                         </div>
 
                         <div className="dropdown">
-                            <Nav.Link href="/Theatrical art">Theatrical art</Nav.Link>
+                            <Nav.Link>Theatrical art</Nav.Link>
                             <div className="dropdown-list">
-                                <Nav.Link href="/Actors">Actors</Nav.Link>
-                                <Nav.Link href="/Theaters">Theaters</Nav.Link>
+                                <Nav.Link href="/TheatricalArt/Actors">Actors</Nav.Link>
+                                <Nav.Link href="/TheatricalArt/Theaters">Theaters</Nav.Link>
                             </div>
                         </div>
 
                         <div className="dropdown">
-                            <Nav.Link href="/Sculpting">Sculpting</Nav.Link>
+                            <Nav.Link>Sculpting</Nav.Link>
                             <div className="dropdown-list">
-                                <Nav.Link href="/Sculptors">Sculptors</Nav.Link>
-                                <Nav.Link href="/Sculpture">Sculpture</Nav.Link>
+                                <Nav.Link href="/Sculpting/Sculptors">Sculptors</Nav.Link>
+                                <Nav.Link href="/Sculpting/Sculpture">Sculpture</Nav.Link>
                             </div>
                         </div>                            
                             
                             <Nav.Item>&nbsp;&nbsp;</Nav.Item>
                             <Nav.Link href="/Info">About site</Nav.Link>
-
-
-
+                            
                         </Nav>
                     </Navbar.Collapse>
                     </Container>
