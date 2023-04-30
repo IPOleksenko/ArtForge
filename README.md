@@ -35,6 +35,7 @@ The ArtForge project helps people learn the art they want to learn but can't. It
 ## Authors
 
 - [IPOleksenko](https://github.com/IPOleksenko) (owner)
+- [Haarinezumi](https://github.com/Haarinezumi)
 
 ## License
 
